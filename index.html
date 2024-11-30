@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Anne-Julie Hoye</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Présentation Section -->
+    <section id="presentation">
+        <h1>Anne-Julie Hoye</h1>
+        <p>Bienvenue sur mon portfolio. Je suis une créative technologue passionnée, spécialisée dans la conception de solutions innovantes.</p>
+        <img src="portrait.jpg" alt="Portrait d'Anne-Julie Hoye">
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences">
+        <h2>Compétences</h2>
+        <div class="skills">
+            <div class="skill-item">
+                <img src="logo_skill1.png" alt="Logo compétence 1">
+                <p>Compétence 1</p>
+            </div>
+            <div class="skill-item">
+                <img src="logo_skill2.png" alt="Logo compétence 2">
+                <p>Compétence 2</p>
+            </div>
+            <!-- Ajouter d'autres compétences ici -->
+        </div>
+    </section>
+
+    <!-- Parcours Section -->
+    <section id="parcours">
+        <h2>Parcours</h2>
+        <div class="timeline">
+            <!-- Exemple d'événement de parcours -->
+            <div class="timeline-item">
+                <img src="logo_parcours1.png" alt="Logo parcours 1">
+                <p>Événement 1</p>
+            </div>
+            <div class="timeline-item">
+                <img src="logo_parcours2.png" alt="Logo parcours 2">
+                <p>Événement 2</p>
+            </div>
+            <!-- Ajouter d'autres événements ici -->
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets">
+        <h2>Projets</h2>
+        <div class="projects">
+            <div class="project-item">
+                <img src="image_projet1.jpg" alt="Projet 1">
+                <p>Projet 1</p>
+            </div>
+            <div class="project-item">
+                <img src="image_projet2.jpg" alt="Projet 2">
+                <p>Projet 2</p>
+            </div>
+            <!-- Ajouter d'autres projets ici -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Envie de collaborer ? N'hésitez pas à me contacter via les réseaux sociaux ou le formulaire ci-dessous.</p>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

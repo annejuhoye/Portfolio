@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio de Anne-Julie Hoye
 
-## Getting Started
+Ce portfolio a été conçu en suivant un tutoriel YouTube créé par Christian Mihai pour apprendre les bases du développement web en React et Next.js. J'ai adapté le style et personnalisé certains éléments pour qu'ils correspondent à mes préférences en termes de design et de présentation.
 
-First, run the development server:
+## Adaptations et Personnalisations
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bien que le tutoriel m'ait fourni une base solide, j'ai adapté le style du portfolio pour le rendre plus personnel et unique. Voici quelques-unes des modifications que j'ai apportées :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Design Adapté** : J'ai modifié les couleurs, les polices, et la mise en page pour mieux refléter ma personnalité et créer une esthétique qui me correspond.
+- **Fonctionnalités Supplémentaires** : J'ai ajouté des sections pour présenter mes projets académiques, mes expériences professionnelles, et mes compétences techniques.
+- **Défis et Leçons Apprises** : Un des principaux défis a été de personnaliser le style tout en maintenant une expérience utilisateur cohérente. J'ai appris à mieux utiliser TailwindCSS pour ajuster les détails de conception, et à trouver un équilibre entre l'esthétique et la performance du site.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Description du Portfolio
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ce portfolio a été conçu pour présenter mon parcours, mes compétences, et mes projets d'une manière claire et attrayante. Il se compose de plusieurs sections principales :
 
-## Learn More
+- **Accueil** : Une introduction personnelle avec des liens cliquables vers mon CV, GitHub et LinkedIn.
+- **Projets** : Une galerie des projets sur lesquels j'ai travaillé, avec une description de chaque projet, les technologies utilisées, et les problèmes que j'ai résolus.
+- **À Propos** : Une section qui parle plus en détail de mon parcours, de mes compétences, et de ce qui me passionne dans la technologie et l'innovation.
+- **Contact** : Un formulaire de contact simple pour que les visiteurs puissent me joindre facilement.
 
-To learn more about Next.js, take a look at the following resources:
+Le site est responsive, ce qui signifie qu'il s'adapte à toutes les tailles d'écran pour offrir une expérience fluide, que ce soit sur mobile, tablette, ou ordinateur. J'ai utilisé TailwindCSS avec des breakpoints spécifiques pour ajuster la mise en page et garantir une adaptation optimale sur chaque type d'appareil.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Utilisées
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **React** et **Next.js** pour la structure et les pages de l'application.
+- **TailwindCSS** pour la mise en forme et le style.
+- **Framer Motion** pour les animations afin de rendre le site plus interactif et attrayant.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
